@@ -1,0 +1,39 @@
+body{
+    background-image: url(./gi.pg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 937px;
+}
+img{
+  width: 300px;
+  filter: grayscale();
+  border-radius: 5%;
+}
+.container{
+  display: flex;
+ justify-content: center;/*horizontal center */
+ margin-top: 220px;
+}
+.wish{
+  background-color: #ffe2ff94;
+  text-align: center;
+  border-radius: 3%;
+  padding: 100px;
+  margin-left: 15px;
+}
+h1{
+  font-family:cursive;
+  color: purple;
+  font-size: 45px;
+}
+p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+h3{
+ margin-top: 60px;
+}
+
+img:hover{
+  filter: none;
+}
